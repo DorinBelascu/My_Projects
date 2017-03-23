@@ -1,0 +1,19 @@
+elbread.dll ver. 1.0.5.365 Sat Apr 23 21:47:09 2016
+
+
+---------------------------------------------------------------------------------------------------------------------------
+Entity                                            | Architecture                                        | Library        
+---------------------------------------------------------------------------------------------------------------------------
+retragere_numerar                                 | arh_retragere_numerar                               | retragere_numerar
+comparator_14_biti_cat_vrea_cat_are_banca         | ah_comparator_14_biti_cat_vrea_cat_are_banca        | retragere_numerar
+comparator_14_biti_cat_vrea_cat_are_utilizatorul  | ah_comparator_14_biti_cat_vrea_cat_are_utilizatorul | retragere_numerar
+scazator                                          | arh_scazator                                        | retragere_numerar
+---------------------------------------------------------------------------------------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+std_logic_1164  | ieee
+numeric_std     | ieee
+-------------------------

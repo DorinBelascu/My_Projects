@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Mar 17 21:37:30 2017
+# Process ID: 12000
+# Log file: C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex3/Ex3.runs/impl_1/test_env.vdi
+# Journal file: C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex3/Ex3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source test_env.tcl -notrace

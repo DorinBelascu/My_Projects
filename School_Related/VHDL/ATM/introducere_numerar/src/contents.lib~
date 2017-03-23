@@ -1,0 +1,21 @@
+298
+~E 1 "./src/comparator_14_biti_cat_vrea_cat_are.vhd" 1 comparator_14_biti_cat_vrea_cat_are_utilizatorul
+~A 1 "./src/comparator_14_biti_cat_vrea_cat_are.vhd" 9 ah_comparator_14_biti_cat_vrea_cat_are_utilizatorul
+~E 1 "./src/comparator.vhd" 1 comparator_14
+~E 1 "./src/comparator_12_biti_cat_vrea_cat_are_banca.vhd" 1 comparator_12_biti_cat_vrea_cat_are_banca
+~A 1 "./src/comparator_12_biti_cat_vrea_cat_are_banca.vhd" 9 ah_comparator_12_biti_cat_vrea_cat_are_banca
+~E 1 "./src/comparator_14_biti_cat_vrea_cat_are_banca.vhd" 1 comparator_14_biti_cat_vrea_cat_are_banca
+~A 1 "./src/comparator_14_biti_cat_vrea_cat_are_banca.vhd" 9 ah_comparator_14_biti_cat_vrea_cat_are_banca
+~E 1 "./src/scazator_14_biti_din_cat_e_in_bancomat_cat_a_scos.vhd" 5 scazator
+~A 1 "./src/scazator_14_biti_din_cat_e_in_bancomat_cat_a_scos.vhd" 12 arh_scazator
+~E 1 "./src/registru_10_biti_suma_dorita.vhd" 4 registru_10_biti_suma_dorita
+~A 1 "./src/registru_10_biti_suma_dorita.vhd" 10 ah_registru_10_biti_suma_dorita
+~E 1 "./src/demultiplexor_2-1_chitanta_sau-_nu.vhd" 1 demultiplexor_2_1_chitanta
+~A 1 "./src/demultiplexor_2-1_chitanta_sau-_nu.vhd" 9 ah_demultiplexor_2_1_chitanta
+~E 1 "./src/retragere_numerar.vhd" 4 retragere_numerar
+~A 1 "./src/retragere_numerar.vhd" 12 arh_retragere_numerar
+~E 1 "./src/scazator_14_biti_din_cat_are_cat_a_scos.vhd" 5 scazator_14_biti_cat_are_cat_a_scos
+~E 1 "./src/scazator_14_biti_din_cat_e_in_bancomat_cat_a_scos.vhd" 5 scazator_12_biti_cat_e_in_bancomat_cat_a_scos
+~A 1 "./src/scazator_14_biti_din_cat_e_in_bancomat_cat_a_scos.vhd" 12 ah_scazator_12_biti_cat_e_in_bancomat_cat_a_scos
+~E 1 "./src/scazator_14_biti_din_cat_e_in_bancomat_cat_a_scos.vhd" 5 scazator_14_biti_cat_e_in_bancomat_cat_a_scos
+~A 1 "./src/scazator_14_biti_din_cat_e_in_bancomat_cat_a_scos.vhd" 12 ah_scazator_14_biti_cat_e_in_bancomat_cat_a_scos

@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\proiect\introducere_numerar\src\sumator.vhd" 
+MESSAGE "Compile Entity "SUMATOR"" 
+MESSAGE "Entity `SUMATOR' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "ARH_SUMATOR" of Entity "SUMATOR"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

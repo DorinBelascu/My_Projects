@@ -1,0 +1,59 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=retragere_numerar
+
+[Library]
+retragere_numerar=.\retragere_numerar.lib
+
+[$LibMap$]
+retragere_numerar=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+REFRESH_FLOW=1
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/comparator_14_biti_cat_vrea_cat_are_banca.vhd=-1
+/comparator_14_biti_cat_vrea_cat_are.vhd=-1
+/demultiplexor_2-1_chitanta_sau-_nu.vhd=-1
+/registru_10_biti_suma_dorita.vhd=-1
+/scazator.vhd=-1
+/retragere_numerar.vhd=-1
+
+[Files.Data]
+.\src\comparator_14_biti_cat_vrea_cat_are_banca.vhd=VHDL Source Code
+.\src\comparator_14_biti_cat_vrea_cat_are.vhd=VHDL Source Code
+.\src\demultiplexor_2-1_chitanta_sau-_nu.vhd=VHDL Source Code
+.\src\registru_10_biti_suma_dorita.vhd=VHDL Source Code
+.\src\scazator.vhd=VHDL Source Code
+.\src\retragere_numerar.vhd=VHDL Source Code
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=retragere_numerar|arh_retragere_numerar|0  
+ShowHide=ShowTopLevel
+Selected=
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\proiect\retragere numerar\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\proiect\retragere numerar\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\proiect\retragere numerar\
+Extension5=dll

@@ -1,0 +1,17 @@
+.\src\BANCOMAT.vhd
+.\src\comparator.vhd
+.\src\demultiplexor.vhd
+.\src\memorie_cont.vhd
+.\src\memorie_parola.vhd
+.\src\numarator_parola.vhd
+.\src\reg_16_biti_introducere_parola.vhd
+.\src\registru_14_biti_suma_dorita.vhd
+.\src\retragere_numerar.vhd
+.\src\scazator.vhd
+.\src\sumator.vhd
+.\src\verificare_parola.vhd
+.\src\introducere_numerar.vhd
+.\src\registru_14_biti_suma_introdusa.vhd
+.\src\schimbare_parola.vhd
+.\src\BCD_7segmente.vhd
+.\src\bacnote_returnate.vhd

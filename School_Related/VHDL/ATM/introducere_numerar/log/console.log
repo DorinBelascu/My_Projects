@@ -1,0 +1,15 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom $DSN/src/sumator.vhd
+# Compile...
+# File: c:\My_Designs\proiect\introducere_numerar\src\sumator.vhd
+# Compile Entity "SUMATOR"
+# Entity `SUMATOR' has been skipped - no difference detected.
+# Compile Architecture "ARH_SUMATOR" of Entity "SUMATOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# Design: 3:40 PM, Sunday, April 24, 2016
+# Design: Opening design "c:\My_Designs\proiect\ATM\ATM.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "ATM" has been set as active.
+# Design Explorer: Shortcut to "c:\My_Designs\proiect\proiect.aws" design added.

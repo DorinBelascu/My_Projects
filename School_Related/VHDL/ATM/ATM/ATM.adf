@@ -1,0 +1,74 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=ATM
+
+[Library]
+ATM=.\ATM.lib
+
+[$LibMap$]
+ATM=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+REFRESH_FLOW=1
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=bacnote_returnate|arh_bacnote_returnate|0  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/BANCOMAT.vhd=-1
+/comparator.vhd=-1
+/demultiplexor.vhd=-1
+/memorie_cont.vhd=-1
+/memorie_parola.vhd=-1
+/numarator_parola.vhd=-1
+/reg_16_biti_introducere_parola.vhd=-1
+/registru_14_biti_suma_dorita.vhd=-1
+/retragere_numerar.vhd=-1
+/scazator.vhd=-1
+/sumator.vhd=-1
+/verificare_parola.vhd=-1
+/introducere_numerar.vhd=-1
+/registru_14_biti_suma_introdusa.vhd=-1
+/schimbare_parola.vhd=-1
+/Waveform Editor 7.awf=-1
+/BCD_7segmente.vhd=-1
+/bacnote_returnate.vhd=-1
+
+[Files.Data]
+.\src\BANCOMAT.vhd=VHDL Source Code
+.\src\comparator.vhd=VHDL Source Code
+.\src\demultiplexor.vhd=VHDL Source Code
+.\src\memorie_cont.vhd=VHDL Source Code
+.\src\memorie_parola.vhd=VHDL Source Code
+.\src\numarator_parola.vhd=VHDL Source Code
+.\src\reg_16_biti_introducere_parola.vhd=VHDL Source Code
+.\src\registru_14_biti_suma_dorita.vhd=VHDL Source Code
+.\src\retragere_numerar.vhd=VHDL Source Code
+.\src\scazator.vhd=VHDL Source Code
+.\src\sumator.vhd=VHDL Source Code
+.\src\verificare_parola.vhd=VHDL Source Code
+.\src\introducere_numerar.vhd=VHDL Source Code
+.\src\registru_14_biti_suma_introdusa.vhd=VHDL Source Code
+.\src\schimbare_parola.vhd=VHDL Source Code
+.\src\Waveform Editor 7.awf=Waveform File
+.\src\BCD_7segmente.vhd=VHDL Source Code
+.\src\bacnote_returnate.vhd=VHDL Source Code
+

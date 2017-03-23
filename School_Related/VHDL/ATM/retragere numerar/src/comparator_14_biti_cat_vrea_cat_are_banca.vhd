@@ -1,0 +1,17 @@
+entity COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA is
+	port
+	(
+		CAT_VREA,CAT_ARE_BANCA:in bit_vector(13 downto 0);
+		REZULTAT : out bit
+	);
+end COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA;
+
+architecture AH_COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA of COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA is	
+begin
+	Comparare:process(CAT_VREA,CAT_ARE_BANCA)
+		begin				 
+			if(CAT_VREA<=CAT_ARE_BANCA) then REZULTAT<='1';
+			else REZULTAT<='0';
+			end if;
+		end process Comparare;
+end AH_COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA;

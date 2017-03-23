@@ -1,0 +1,23 @@
+timestamp=1461498802731
+
+[sumator]
+A/arh_sumator=A/ARH_SUMATOR 21|./src/sumator.vhd|12|1*2250
+B/arh_sumator=3*0
+H/arh_sumator=0*3266
+R=./src/sumator.vhd|5
+V=0*2171
+
+[~A]
+./src/sumator.vhd~ARH_SUMATORSUMATOR=0*4066*4456
+./src/sumator.vhd~SUMATOR=0*0*253
+ModifyID=13
+Version=73
+
+[~MFT]
+0=13|0introducere_numerar.mgf|4456|1266
+1=2|1introducere_numerar.mgf|2250|2250
+3=0|3introducere_numerar.mgf|0|0
+
+[~U]
+sumator=SUMATOR 11|0*1584|0*1746
+

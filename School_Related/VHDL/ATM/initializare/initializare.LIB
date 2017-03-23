@@ -1,0 +1,55 @@
+timestamp=1460395045328
+
+[demultiplexor]
+A/arh_demultiplexor=A/ARH_DEMULTIPLEXOR 21|./src/demultiplexor.vhd|7|1*29767
+B/arh_demultiplexor=3*10511
+H/arh_demultiplexor=0*42902
+R=./src/demultiplexor.vhd|1
+V=0*42227
+
+[memorie_cont]
+A/arh_memorie_cont=A/ARH_MEMORIE_CONT 21|./src/memorie_cont.vhd|8|1*9740
+B/arh_memorie_cont=3*0
+H/arh_memorie_cont=0*19908
+R=./src/memorie_cont.vhd|1
+V=0*24404
+
+[memorie_parola]
+A/arh_memorie_parola=A/ARH_MEMORIE_PAROLA 21|./src/memorie_parola.vhd|8|1*16474
+B/arh_memorie_parola=3*3700
+H/arh_memorie_parola=0*29523
+R=./src/memorie_cont.vhd|1
+V=0*12638
+
+[numarator]
+A/arh_numarator=A/ARH_NUMARATOR 21|./src/numarator_parola.vhd|8|1*27274
+B/arh_numarator=3*7402
+H/arh_numarator=0*40137
+R=./src/numarator_parola.vhd|4
+V=0*35758
+
+[~A]
+./src/demultiplexor.vhd~ARH_DEMULTIPLEXORDEMULTIPLEXOR=0*43011*43297
+./src/demultiplexor.vhd~DEMULTIPLEXOR=0*41014*41201
+./src/memorie8_14_1.vhd~ARH_MEMORIE_CONTMEMORIE_CONT=0*10194*11679
+./src/memorie8_14_1.vhd~MEMORIE_CONT=0*1939*2161
+./src/memorie_cont.vhd~ARH_MEMORIE_CONTMEMORIE_CONT=0*22276*23760
+./src/memorie_cont.vhd~MEMORIE_CONT=0*19612*19833
+./src/memorie_cont.vhd~MEMORIE_PAROLA=0*11771*11998
+./src/memorie_parola.vhd~ARH_MEMORIE_PAROLAMEMORIE_PAROLA=0*31927*33455
+./src/numarator_parola.vhd~ARH_NUMARATORNUMARATOR=0*40238*40925
+./src/numarator_parola.vhd~NUMARATOR=0*34992*35218
+ModifyID=114
+Version=73
+
+[~MFT]
+0=127|0initializare.mgf|43297|25452
+1=23|1initializare.mgf|29767|21522
+3=17|3initializare.mgf|10511|0
+
+[~U]
+demultiplexor=DEMULTIPLEXOR 11|0*41778|0*41933
+memorie_cont=11|0*23851|0*24024
+memorie_parola=MEMORIE_PAROLA 11|0*12075|0*12254
+numarator=11|0*35294|0*35439
+

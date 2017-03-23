@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\proiect\library.cfg"  -j "c:\My_Designs\proiect\introducere_numerar\projlib.cfg"  -d "c:\My_Designs\proiect\introducere_numerar\compile\"  -work introducere_numerar -dbg -e 100 "c:\My_Designs\proiect\introducere_numerar\src\sumator.vhd" 

@@ -1,0 +1,5 @@
+MESSAGE "File: C:\My_Designs\proiect_FINAL\ATM\src\bacnote_returnate.vhd" 
+MESSAGE "Compile Entity "BACNOTE_RETURNATE"" 
+MESSAGE "Entity `BACNOTE_RETURNATE' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "ARH_BACNOTE_RETURNATE" of Entity "BACNOTE_RETURNATE"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

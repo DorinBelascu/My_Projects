@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\proiect\initializare\src\demultiplexor.vhd" 
+MESSAGE "Compile Entity "DEMULTIPLEXOR"" 
+MESSAGE "Entity `DEMULTIPLEXOR' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "ARH_DEMULTIPLEXOR" of Entity "DEMULTIPLEXOR"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

@@ -1,0 +1,49 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=introducere_numerar
+
+[Library]
+introducere_numerar=.\introducere_numerar.lib
+
+[$LibMap$]
+introducere_numerar=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+REFRESH_FLOW=1
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/sumator.vhd=-1
+
+[Files.Data]
+.\src\sumator.vhd=VHDL Source Code
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=sumator|arh_sumator|0 
+ShowHide=ShowTopLevel
+Selected=
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\proiect\introducere_numerar\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\proiect\introducere_numerar\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\proiect\introducere_numerar\
+Extension5=dll

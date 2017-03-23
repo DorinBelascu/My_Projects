@@ -1,0 +1,449 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Mar 17 21:13:28 2017
+# Process ID: 9812
+# Log file: C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex2.runs/synth_1/test_env.vds
+# Journal file: C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source test_env.tcl
+# set_param gui.test TreeTableDev
+# set_param xicom.use_bs_reader 1
+# debug::add_scope template.lib 1
+# set_msg_config -id {Common-41} -limit 4294967295
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir {C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex2.cache/wt} [current_project]
+# set_property parent.project_path {C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex2.xpr} [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_vhdl -library xil_defaultlib {
+#   {C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex2.srcs/sources_1/new/reg.vhd}
+#   {C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/MPG.vhd}
+#   {C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/SSD.vhd}
+#   {C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd}
+# }
+# read_xdc {{C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Basys3_original.xdc}}
+# set_property used_in_implementation false [get_files {{C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Basys3_original.xdc}}]
+# catch { write_hwdef -file test_env.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top test_env -part xc7a35tcpg236-1
+Command: synth_design -top test_env -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 385.930 ; gain = 64.469
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'test_env' [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd:45]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/MPG.vhd:36' bound to instance 'C1' of component 'MPG' [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'MPG' [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/MPG.vhd:42]
+WARNING: [Synth 8-614] signal 'REG_EN' is read in the process but is not in the sensitivity list [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/MPG.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'MPG' (1#1) [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/MPG.vhd:42]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/MPG.vhd:36' bound to instance 'C4' of component 'MPG' [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd:84]
+INFO: [Synth 8-3491] module 'SSD' declared at 'C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/SSD.vhd:36' bound to instance 'C2' of component 'SSD' [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'SSD' [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/SSD.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'SSD' (2#1) [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/SSD.vhd:46]
+INFO: [Synth 8-3491] module 'reg' declared at 'C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex2.srcs/sources_1/new/reg.vhd:36' bound to instance 'C3' of component 'REG' [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd:86]
+INFO: [Synth 8-638] synthesizing module '\reg ' [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex2.srcs/sources_1/new/reg.vhd:47]
+INFO: [Synth 8-256] done synthesizing module '\reg ' (3#1) [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex2.srcs/sources_1/new/reg.vhd:47]
+WARNING: [Synth 8-3848] Net led in module/entity test_env does not have driver. [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'test_env' (4#1) [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd:45]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[15]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[8]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[7]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[6]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[5]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[1]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[0]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[15]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[8]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[7]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[6]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[5]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 410.898 ; gain = 89.438
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 410.898 ; gain = 89.438
+---------------------------------------------------------------------------------
+Loading clock regions from D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from D:/UTCN/An2/SemestrulII/Custom/VivadoInstalation/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Basys3_original.xdc]
+Finished Parsing XDC File [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Basys3_original.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 627.219 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:55 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:55 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:56 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3848] Net led in module/entity test_env does not have driver. [C:/Users/Dorin/Desktop/UTCN Documents/An 2/Sem2/AC/Exercitii Lab/Lab3/Ex2/Ex1.vhd:39]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module test_env 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+Module MPG 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module SSD 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+Module reg 
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-4767] Trying to implement RAM 'C3/reg_file_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: Found multiple reads with same address from RAM. 
+RAM "C3/reg_file_reg" dissolved into registers
+WARNING: [Synth 8-3331] design test_env has unconnected port led[15]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[8]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[7]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[6]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[5]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[1]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[0]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[15]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[8]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[7]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[6]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[5]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[1]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 627.219 ; gain = 305.758
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\WD_ADD_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[15][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[14][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[13][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[12][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[11][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[10][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[9][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[8][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[7][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[6][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[5][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[4][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C3/reg_file_reg[2][0] )
+WARNING: [Synth 8-3332] Sequential element (\WD_ADD_reg[0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[15][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[14][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[13][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[12][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[11][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[10][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[9][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[8][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[7][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[6][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[5][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[4][0] ) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (\C3/reg_file_reg[2][0] ) is unused and will be removed from module test_env.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:59 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:59 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:43 ; elapsed = 00:00:59 . Memory (MB): peak = 627.219 ; gain = 305.758
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:43 ; elapsed = 00:00:59 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:30 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:30 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:14 ; elapsed = 00:01:30 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:14 ; elapsed = 00:01:31 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:14 ; elapsed = 00:01:31 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:14 ; elapsed = 00:01:31 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |    17|
+|4     |LUT2   |     8|
+|5     |LUT3   |     2|
+|6     |LUT4   |     2|
+|7     |LUT6   |    90|
+|8     |MUXF7  |    30|
+|9     |MUXF8  |    15|
+|10    |FDRE   |   284|
+|11    |IBUF   |     4|
+|12    |OBUF   |    11|
+|13    |OBUFT  |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   484|
+|2     |  C1     |MPG    |    47|
+|3     |  C3     |\reg   |   362|
+|4     |  C4     |MPG_0  |    20|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:14 ; elapsed = 00:01:31 . Memory (MB): peak = 627.219 ; gain = 305.758
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 50 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:58 . Memory (MB): peak = 627.219 ; gain = 55.984
+Synthesis Optimization Complete : Time (s): cpu = 00:01:14 ; elapsed = 00:01:31 . Memory (MB): peak = 627.219 ; gain = 305.758
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 86 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:26 . Memory (MB): peak = 627.219 ; gain = 272.305
+# write_checkpoint -noxdef test_env.dcp
+# catch { report_utilization -file test_env_utilization_synth.rpt -pb test_env_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.357 . Memory (MB): peak = 627.219 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 17 21:15:08 2017...

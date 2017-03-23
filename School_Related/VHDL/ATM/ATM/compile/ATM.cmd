@@ -1,0 +1,1 @@
+-w -s "C:\My_Designs\proiect_FINAL\library.cfg"  -j "C:\My_Designs\proiect_FINAL\ATM\projlib.cfg"  -d "C:\My_Designs\proiect_FINAL\ATM\compile\"  -work ATM -dbg -e 100 "C:\My_Designs\proiect_FINAL\ATM\src\bacnote_returnate.vhd" 

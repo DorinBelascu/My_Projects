@@ -1,0 +1,225 @@
+timestamp=1462652099188
+
+[bacnote_returnate]
+A/arh_bacnote_returnate=A/ARH_BACNOTE_RETURNATE 21|./src/bacnote_returnate.vhd|14|1*3176117
+B/arh_bacnote_returnate=3*982735
+H/arh_bacnote_returnate=0*4373328
+R=./src/bacnote_returnate.vhd|5
+V=0*4350232
+
+[bancomat]
+A/arh_bancomat=A/ARH_BANCOMAT 21|./src/BANCOMAT.vhd|23|1*3130548
+B/arh_bancomat=3*971094
+H/arh_bancomat=0*4317207
+R=./src/BANCOMAT.vhd|1
+V=0*4289208
+
+[comparator]
+A/ah_comparator=A/AH_COMPARATOR 21|./src/comparator.vhd|9|1*3028326
+B/ah_comparator=3*923587
+H/ah_comparator=0*4182125
+R=./src/comparator.vhd|1
+V=0*287411
+
+[comparator_14_biti_cat_vrea_cat_are_banca]
+A/ah_comparator_14_biti_cat_vrea_cat_are_banca=A/AH_COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA 21|./src/comparator_14_biti_cat_vrea_cat_are_banca.vhd|9|1*72215
+B/ah_comparator_14_biti_cat_vrea_cat_are_banca=3*67659
+H/ah_comparator_14_biti_cat_vrea_cat_are_banca=0*101722
+R=./src/comparator_14_biti_cat_vrea_cat_are_banca.vhd|1
+V=0*4675
+
+[comparator_14_biti_cat_vrea_cat_are_utilizatorul]
+B/ah_comparator_14_biti_cat_vrea_cat_are_utilizatorul=3*66925
+H/ah_comparator_14_biti_cat_vrea_cat_are_utilizatorul=0*100870
+R=./src/comparator_14_biti_cat_vrea_cat_are.vhd|1
+V=0*2000
+
+[demultiplexor]
+A/arh_demultiplexor=A/ARH_DEMULTIPLEXOR 21|./src/demultiplexor.vhd|7|1*3029310
+B/arh_demultiplexor=3*924283
+H/arh_demultiplexor=0*4182585
+R=./src/demultiplexor.vhd|1
+V=0*6623
+
+[introducere_numerar]
+A/arh_introducere_numerar=A/ARH_INTRODUCERE_NUMERAR 21|./src/introducere_numerar.vhd|11|1*3055897
+B/arh_introducere_numerar=3*957076
+H/arh_introducere_numerar=0*4207510
+R=./src/introducere_numerar.vhd|1
+V=0*2921683
+
+[inttroducere_numerar]
+A/arh_inttroducere_numerar=A/ARH_INTTRODUCERE_NUMERAR 21|./src/introducere_numerar.vhd|10|1*1184808
+B/arh_inttroducere_numerar=3*339454
+H/arh_inttroducere_numerar=0*1650221
+R=./src/introducere_numerar.vhd|1
+V=0*1622847
+
+[memorie_cont]
+A/arh_memorie_cont=A/ARH_MEMORIE_CONT 21|./src/memorie_cont.vhd|16|1*3030581
+B/arh_memorie_cont=3*925632
+H/arh_memorie_cont=0*4183074
+R=./src/memorie_cont.vhd|4
+V=0*2023333
+
+[memorie_parola]
+A/arh_memorie_parola=A/ARH_MEMORIE_PAROLA 21|./src/memorie_parola.vhd|12|1*3035301
+B/arh_memorie_parola=3*933208
+H/arh_memorie_parola=0*4187862
+R=./src/memorie_parola.vhd|1
+V=0*20725
+
+[numarator]
+A/arh_numarator=A/ARH_NUMARATOR 21|./src/numarator_parola.vhd|8|1*3039549
+B/arh_numarator=3*940798
+H/arh_numarator=0*4192687
+R=./src/numarator_parola.vhd|4
+V=0*24226
+
+[registru_10_biti_suma_dorita]
+A/ah_registru_10_biti_suma_dorita=A/AH_REGISTRU_10_BITI_SUMA_DORITA 21|./src/registru_14_biti_suma_dorita.vhd|10|1*109638
+B/ah_registru_10_biti_suma_dorita=3*100303
+H/ah_registru_10_biti_suma_dorita=0*144572
+R=./src/registru_10_biti_suma_dorita.vhd|4
+V=0*143753
+
+[registru_14_biti_suma_dorita]
+A/ah_registru_14_biti_suma_dorita=A/AH_REGISTRU_14_BITI_SUMA_DORITA 21|./src/registru_14_biti_suma_dorita.vhd|10|1*3042717
+B/ah_registru_14_biti_suma_dorita=3*947281
+H/ah_registru_14_biti_suma_dorita=0*4194681
+R=./src/registru_14_biti_suma_dorita.vhd|4
+V=0*148081
+
+[registru_14_biti_suma_introdusa]
+A/ah_registru_14_biti_suma_introdusa=A/AH_REGISTRU_14_BITI_SUMA_INTRODUSA 21|./src/registru_14_biti_suma_introdusa.vhd|10|1*3060401
+B/ah_registru_14_biti_suma_introdusa=3*958175
+H/ah_registru_14_biti_suma_introdusa=0*4213000
+R=./src/registru_14_biti_suma_introdusa.vhd|4
+V=0*414196
+
+[registru_16_biti_introducere_parola]
+A/ah_registru_16_biti_introducere_parola=A/AH_REGISTRU_16_BITI_INTRODUCERE_PAROLA 21|./src/reg_16_biti_introducere_parola.vhd|10|1*3041209
+B/ah_registru_16_biti_introducere_parola=3*945443
+H/ah_registru_16_biti_introducere_parola=0*4193799
+R=./src/reg_16_biti_introducere_parola.vhd|4
+V=0*26887
+
+[retragere_numerar]
+A/arh_retragere_numerar=A/ARH_RETRAGERE_NUMERAR 21|./src/retragere_numerar.vhd|18|1*3044265
+B/arh_retragere_numerar=3*950552
+H/arh_retragere_numerar=0*4195824
+R=./src/retragere_numerar.vhd|4
+V=0*3778630
+
+[scazator]
+A/arh_scazator=A/ARH_SCAZATOR 21|./src/scazator.vhd|12|1*3051392
+B/arh_scazator=3*953069
+H/arh_scazator=0*4204967
+R=./src/scazator.vhd|5
+V=0*290748
+
+[schimbare_parola]
+A/arh_schimbare_parola=A/ARH_SCHIMBARE_PAROLA 21|./src/schimbare_parola.vhd|10|1*3061964
+B/arh_schimbare_parola=3*961449
+H/arh_schimbare_parola=0*4214176
+R=./src/schimbare_parola.vhd|1
+V=0*3038850
+
+[ssd]
+A/exercitiu1=21|./src/BCD_7segmente.vhd|22|1*3064962
+B/exercitiu1=3*962192
+H/exercitiu1=0*4217532
+R=./src/BCD_7segmente.vhd|10
+V=0*4000028
+
+[sumator]
+A/arh_sumator=A/ARH_SUMATOR 21|./src/sumator.vhd|12|1*3053647
+B/arh_sumator=3*955073
+H/arh_sumator=0*4206244
+R=./src/sumator.vhd|5
+V=0*44735
+
+[verificare_parola]
+A/ah_verificare_parola=A/AH_VERIFICARE_PAROLA 21|./src/verificare_parola.vhd|14|1*3068989
+B/ah_verificare_parola=3*968726
+H/ah_verificare_parola=0*4220642
+R=./src/verificare_parola.vhd|1
+V=0*4231008
+
+[~A]
+./src/BANCOMAT.vhd~ARH_BANCOMATBANCOMAT=0*4336708*4342712
+./src/BANCOMAT.vhd~BANCOMAT=0*4261953*4262410
+./src/BCD_7segmente.vhd~exercitiu1ssd=0*4218756*4220106
+./src/BCD_7segmente.vhd~ssd=0*3996150*3996514
+./src/bacnote_returnate.vhd~ARH_BACNOTE_RETURNATEBACNOTE_RETURNATE=0*4375312*4377123
+./src/bacnote_returnate.vhd~BACNOTE_RETURNATE=0*4349147*4349476
+./src/comparator.vhd~AH_COMPARATORCOMPARATOR=0*4182226*4182501
+./src/comparator.vhd~COMPARATOR=0*286655*286852
+./src/comparator_14_biti_cat_vrea_cat_are.vhd~AH_COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_UTILIZATORULCOMPARATOR_14_BITI_CAT_VREA_CAT_ARE_UTILIZATORUL=0*101047*101537
+./src/comparator_14_biti_cat_vrea_cat_are.vhd~COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_UTILIZATORUL=0*0*336
+./src/comparator_14_biti_cat_vrea_cat_are_banca.vhd~AH_COMPARATORCOMPARATOR=0*277373*277691
+./src/comparator_14_biti_cat_vrea_cat_are_banca.vhd~AH_COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCACOMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA=0*101885*102358
+./src/comparator_14_biti_cat_vrea_cat_are_banca.vhd~COMPARATOR=0*276936*277170
+./src/comparator_14_biti_cat_vrea_cat_are_banca.vhd~COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA=0*2747*3074
+./src/demultiplexor.vhd~ARH_DEMULTIPLEXORDEMULTIPLEXOR=0*4182694*4182980
+./src/demultiplexor.vhd~DEMULTIPLEXOR=0*5421*5608
+./src/introducere_numerar.vhd~ARH_INTRODUCERE_NUMERARINTRODUCERE_NUMERAR=0*4211842*4212888
+./src/introducere_numerar.vhd~ARH_INTTRODUCERE_NUMERARINTTRODUCERE_NUMERAR=0*1654297*1655137
+./src/introducere_numerar.vhd~INTRODUCERE_NUMERAR=0*2914828*2915198
+./src/introducere_numerar.vhd~INTTRODUCERE_NUMERAR=0*1616586*1616913
+./src/memorie_cont.vhd~ARH_MEMORIE_CONTMEMORIE_CONT=0*4185455*4187771
+./src/memorie_cont.vhd~MEMORIE_CONT=0*2022032*2022408
+./src/memorie_parola.vhd~ARH_MEMORIE_PAROLAMEMORIE_PAROLA=0*4190279*4192590
+./src/memorie_parola.vhd~MEMORIE_PAROLA=0*14767*15060
+./src/numarator_parola.vhd~ARH_NUMARATORNUMARATOR=0*4192788*4193710
+./src/numarator_parola.vhd~NUMARATOR=0*22348*22574
+./src/reg_16_biti_introducere_parola.vhd~AH_REGISTRU_16_BITI_INTRODUCERE_PAROLAREGISTRU_16_BITI_INTRODUCERE_PAROLA=0*4193950*4194527
+./src/reg_16_biti_introducere_parola.vhd~REGISTRU_16_BITI_INTRODUCERE_PAROLA=0*24900*25232
+./src/registru_10_biti_suma_dorita.vhd~AH_REGISTRU_10_BITI_SUMA_DORITAREGISTRU_10_BITI_SUMA_DORITA=0*142125*142993
+./src/registru_10_biti_suma_dorita.vhd~REGISTRU_10_BITI_SUMA_DORITA=0*141572*141881
+./src/registru_14_biti_suma_dorita.vhd~AH_REGISTRU_10_BITI_SUMA_DORITAREGISTRU_10_BITI_SUMA_DORITA=0*144894*145762
+./src/registru_14_biti_suma_dorita.vhd~AH_REGISTRU_14_BITI_SUMA_DORITAREGISTRU_14_BITI_SUMA_DORITA=0*4194818*4195686
+./src/registru_14_biti_suma_dorita.vhd~REGISTRU_14_BITI_SUMA_DORITA=0*145900*146209
+./src/registru_14_biti_suma_introdusa.vhd~AH_REGISTRU_14_BITI_SUMA_INTRODUSAREGISTRU_14_BITI_SUMA_INTRODUSA=0*4213143*4214029
+./src/registru_14_biti_suma_introdusa.vhd~REGISTRU_14_BITI_SUMA_INTRODUSA=0*411949*412270
+./src/retragere_numerar.vhd~ARH_RETRAGERE_NUMERARRETRAGERE_NUMERAR=0*4202961*4204861
+./src/retragere_numerar.vhd~RETRAGERE_NUMERAR=0*3767545*3768067
+./src/scazator.vhd~ARH_SCAZATORSCAZATOR=0*4205769*4206165
+./src/scazator.vhd~SCAZATOR=0*288555*288812
+./src/schimbare_parola.vhd~ARH_SCHIMBARE_PAROLASCHIMBARE_PAROLA=0*4216826*4217429
+./src/schimbare_parola.vhd~SCHIMBARE_PAROLA=0*3034292*3034608
+./src/sumator.vhd~ARH_SUMATORSUMATOR=0*4207044*4207434
+./src/sumator.vhd~SUMATOR=0*42564*42817
+./src/verificare_parola.vhd~AH_VERIFICARE_PAROLAVERIFICARE_PAROLA=0*4228161*4230030
+./src/verificare_parola.vhd~VERIFICARE_PAROLA=0*4220183*4220557
+ModifyID=3282
+Version=73
+
+[~MFT]
+0=3513|0ATM.mgf|4377123|4239457
+1=865|1ATM.mgf|3176117|3103041
+3=836|3ATM.mgf|982735|918436
+
+[~U]
+bacnote_returnate=11|0*4349561|0*4349767
+bancomat=11|0*4288061|0*4288438
+comparator=11|0*286923|0*287101
+comparator_14_biti_cat_vrea_cat_are_banca=COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_BANCA 11|0*4020|0*4297
+comparator_14_biti_cat_vrea_cat_are_utilizatorul=COMPARATOR_14_BITI_CAT_VREA_CAT_ARE_UTILIZATORUL 11|0*1322|0*1614
+demultiplexor=DEMULTIPLEXOR 11|0*6174|0*6329
+introducere_numerar=11|0*2920712|0*2921005
+inttroducere_numerar=11|0*1622033|0*1622292
+memorie_cont=11|0*2022483|0*2022721
+memorie_parola=MEMORIE_PAROLA 11|0*19964|0*20190
+numarator=NUMARATOR 11|0*23762|0*23907
+registru_10_biti_suma_dorita=11|0*143131|0*143358
+registru_14_biti_suma_dorita=REGISTRU_14_BITI_SUMA_DORITA 11|0*147459|0*147686
+registru_14_biti_suma_introdusa=REGISTRU_14_BITI_SUMA_INTRODUSA 11|0*413559|0*413795
+registru_16_biti_introducere_parola=REGISTRU_16_BITI_INTRODUCERE_PAROLA 11|0*26230|0*26478
+retragere_numerar=11|0*3777295|0*3777697
+scazator=11|0*290156|0*290321
+schimbare_parola=11|0*3038047|0*3038299
+ssd=11|0*3999232|0*3999438
+sumator=SUMATOR 11|0*44148|0*44310
+verificare_parola=11|0*4230135|0*4230455
+

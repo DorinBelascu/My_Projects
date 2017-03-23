@@ -1,0 +1,4 @@
+MESSAGE "File: c:\My_Designs\proiect\retragere numerar\src\retragere_numerar.vhd" 
+MESSAGE "Compile Entity "RETRAGERE_NUMERAR"" 
+MESSAGE "Compile Architecture "ARH_RETRAGERE_NUMERAR" of Entity "RETRAGERE_NUMERAR"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

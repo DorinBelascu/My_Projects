@@ -1,0 +1,17 @@
+[Version]
+Version=6.3
+[Designs]
+atm=.\ATM\ATM.adf
+[Browser]
+sort=order
+mode=asc
+[Order]
+order=1
+macro=
+[Expand]
+initializare=0
+retragere numerar=0
+introducere_numerar=0
+atm=1
+[Settings]
+Active=atm

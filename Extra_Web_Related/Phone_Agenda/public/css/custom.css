@@ -1,0 +1,40 @@
+#lansator-modal
+{
+	margin : 20px;
+}
+
+.total-width
+{
+	width: 100% !important;
+}
+
+.persoane_caption
+{
+	font-size: 13px !important;
+	line-height: 14px !important;
+}
+
+.small-margin
+{
+	margin: 5px !important;
+}
+
+.ascuns
+{
+	display: none;
+}
+
+.inline-table
+{
+	display: inline-table !important;
+}
+
+.ascuns
+{
+	display: none;
+}
+
+.select-row
+{
+	min-width: 200px;
+}

@@ -1,0 +1,9 @@
+114
+~E 1 "./src/memorie_cont.vhd" 1 memorie_cont
+~A 1 "./src/memorie_cont.vhd" 8 arh_memorie_cont
+~E 1 "./src/demultiplexor.vhd" 1 demultiplexor
+~A 1 "./src/demultiplexor.vhd" 7 arh_demultiplexor
+~E 1 "./src/memorie_cont.vhd" 1 memorie_parola
+~A 1 "./src/memorie_parola.vhd" 8 arh_memorie_parola
+~E 1 "./src/numarator_parola.vhd" 4 numarator
+~A 1 "./src/numarator_parola.vhd" 8 arh_numarator
